@@ -1,0 +1,26 @@
+body{
+    margin: 3% auto;
+    width: 60%;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-family: arial;
+    color: rgb(255, 255, 255);
+    background: #ffffff;
+}
+
+:root {
+	--text-color: #000;
+	--bg-color: rgb(255, 255, 255);
+}
+body.darkmode {
+	--text-color: #FFFFFF;
+	--bg-color: rgb(0, 0, 0);
+}
+
+body {
+	min-height: 100vh;
+	color: var(--text-color);
+	background-color: var(--bg-color);
+}
+
+.is-hidden { display: none; }
