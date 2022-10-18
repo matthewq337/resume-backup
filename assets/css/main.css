@@ -5,16 +5,16 @@ body{
     line-height: 1.8rem;
     font-family: arial;
     color: rgb(255, 255, 255);
-    background: #ffffff;
+    background: #000000;
 }
 
 :root {
-	--text-color: #000;
-	--bg-color: rgb(255, 255, 255);
+	--text-color: #ffffff;
+	--bg-color: #000000;
 }
 body.darkmode {
-	--text-color: #FFFFFF;
-	--bg-color: rgb(0, 0, 0);
+	--text-color: #000000;
+	--bg-color: #fffffff;
 }
 
 body {
