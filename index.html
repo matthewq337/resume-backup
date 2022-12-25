@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" type="text/css" href="css/main.css">
 <body>
 <link rel="icon" href="./icon/favicon.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -11,27 +12,27 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" /> 
-  
-  
-  
-  
-  
-  
-<header>
- <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-	<div>
-	</div>
-	<div id=theme>
-    	<div onclick=setDarkMode(true) id=darkBtn>
-        	<a>dark</a>
-      	</div>
-    	<div onclick=setDarkMode(false) id=lightBtn class=is-hidden>
-      		<a>light</a>
-    	</div>
-  	</div>
-</header>
+    <!-- Checkbox Toggle -->
+    <input type="checkbox" id="toggle">
 
-<title>Home</title>
+    <!-- Container -->
+    <div class="container">
+
+        <!-- Header -->
+<meta name="viewport" content="width=device-width, initial-scale = 1.0, 
+maximum-scale=1.0, user-scalable=no" /> 
+        <style>
+body {
+  height: 5000px; /* Make this site really long */
+  width: 5000px; /* Make this site really wide */
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+</style>
+</head>
+<body>
+        <!-- Main Content -->
+        <title>Home</title>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
 
@@ -106,7 +107,6 @@
       <a class="semi-transparent-button" href="https://www.mattquintanilla.xyz/cookies"><b>cookies</b></a>
       <a class="semi-transparent-button" href="https://www.mattquintanilla.xyz/privacypolicy"><b>privacy policy</b></a>
     <!--<b>-----BEGIN PGP PUBLIC KEY BLOCK-----
-
 mQGNBGJblDABDADFVkJ3Q13ohjJgEiAKcsI8CGNYkh78wYF3A/9VsOw0TG/PT0HR
 MxWggsvR+uxU//6zFwHHdNimVuuw4xiuOvzSAeKUpuSXrsy/vM8BgoHO6NwJCzsM
 0vqyXfvk27LUUMmqS9zJyTRiMxBc6e00aY0ITByZsjyGAno19B4W8IVNjxqkJber
